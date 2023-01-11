@@ -12,48 +12,72 @@
     margin: 5px 5px;
 }
 
+#blah   {
+    color: silver;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#green  {
+    height: 25px;
+    width: 350px;
+    border: 1px solid green;
+    margin-left: 20px;
+}
+
+#orange  {
+    height: 25px;
+    width: 350px;
+    border: 1px solid orange;
+    margin-left: 20px;
+}
+
+#yellow  {
+    height: 25px;
+    width: 350px;
+    border: 1px solid yellow;
+    margin-left: 20px;
+}
+
 #dial-boxes {
     display: flex;
     flex-direction: row;
+    margin-left: 5px;
 }
 
 #dial-box-1 {
     height: 100px;
     width: 129px;
     background-color: silver;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-right: 1px solid black;
 }
 
+#dial-1   {
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px 10px 10px 20px;
+}
 
 #dial-box-2 {
     height: 100px;
     width: 256px;
     background-color: silver;
-
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-/* #dial-box   {
-    height: 100px;
-    width: 385px;
-    margin: 10px 5px;
-    background-color: silver;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
-} */
 
-/* #dial-box-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
-
-/* .dial   {
+#dial-2, #dial-3    {
     height: 75px;
     width: 75px;
     border: 2px solid black;
     border-radius: 50%;
-    margin-top: 5px;
-} */
+    margin-top: 10px;
+}
 
 #speaker-box    {
     height: 320px;
