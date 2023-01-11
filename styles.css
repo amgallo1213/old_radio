@@ -64,6 +64,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
+    font-size: 12px;
 }
 
 #dial-1   {
@@ -90,6 +91,12 @@
     border: 2px solid black;
     border-radius: 50%;
     margin-top: 15px;
+}
+
+.dial-labels    {
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 /* -------------------------------------------------------------------- */
