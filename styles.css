@@ -43,6 +43,12 @@
     margin-top: 3px;
 }
 
+#red    {
+    height: 100px;
+    width: 3px;
+    background-color: red;
+}
+
 #more-blah  {
     color: silver;
     margin-left: 20px;
