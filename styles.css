@@ -32,6 +32,7 @@
     width: 350px;
     border: 1px solid orange;
     margin-left: 20px;
+    margin-top: 3px;
 }
 
 #yellow  {
@@ -39,12 +40,13 @@
     width: 350px;
     border: 1px solid yellow;
     margin-left: 20px;
+    margin-top: 3px;
 }
 
 #more-blah  {
     color: silver;
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 3px;
 }
 
 /* ---------------------------------------------------- */
@@ -65,7 +67,7 @@
 #on-off {
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 35px;
     font-size: 12px;
 }
 
@@ -74,7 +76,7 @@
     width: 75px;
     border: 2px solid black;
     border-radius: 50%;
-    margin: -10px 10px 10px 20px;
+    margin: -5px 10px 10px 20px;
 }
 
 #dial-box-2 {
@@ -92,7 +94,7 @@
     width: 75px;
     border: 2px solid black;
     border-radius: 50%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .dial-labels    {
@@ -108,4 +110,10 @@
     width: 385px;
     border: 2px solid silver;
     margin: 5px 5px;
+    background-color: silver;
+}
+
+.speaker-row    {
+    border: 2px solid black;
+    height: 120px;
 }
